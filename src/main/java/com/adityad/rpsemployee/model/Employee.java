@@ -1,10 +1,12 @@
 package com.adityad.rpsemployee.model;
 
 
+import org.springframework.data.mongodb.core.mapping.Document;
+
 import javax.persistence.*;
 import java.io.Serializable;
 
-@Entity
+@Document(collection = "rpsemployee")
 public class Employee implements Serializable{
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
