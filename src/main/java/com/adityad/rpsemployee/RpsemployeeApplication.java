@@ -11,6 +11,7 @@ public class RpsemployeeApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(RpsemployeeApplication.class, args);
+		System.out.print("Aryan");
 	}
 
 }
